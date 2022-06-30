@@ -2,7 +2,7 @@ resource "aws_s3_bucket" "b" {
   bucket = "anil-bucket-with-terrafrom"
 
   tags = {
-    Name        = "anil-bucket-with-terrafrom"
+    Name        = "nikhilesh-bucket-with-terrafrom"
     Environment = "dev"
   }
 }
