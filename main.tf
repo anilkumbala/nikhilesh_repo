@@ -10,7 +10,7 @@ terraform {
   required_providers {
     aws = {
       version = "<= 3.0.0" #Forcing which version of plugin needs to be used.
-      source = "hashicorp/aws"
+      source = "gg/aws"
     }
   }
 }
